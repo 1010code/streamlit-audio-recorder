@@ -4,9 +4,7 @@ from aiortc.contrib.media import MediaRecorder
 
 from streamlit_webrtc import WebRtcMode, webrtc_streamer
 
-"""
-remove audio file
-"""
+# Remove audio file
 def clear():
     # If file exists, delete it
     if os.path.isfile("input.wav"):
